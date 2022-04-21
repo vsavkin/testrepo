@@ -1,0 +1,16 @@
+{
+  "include": ["**/*.ts", "**/*.tsx"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "target": "ES2019",
+    "strict": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "module": "commonjs",
+    "declaration": true
+  }
+}

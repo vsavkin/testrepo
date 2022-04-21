@@ -1,0 +1,13 @@
+{
+  "name": "components",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "postinstall": "yarn build"
+  },
+  "devDependencies": {
+    "typescript": "4.6.3"
+  }
+}
