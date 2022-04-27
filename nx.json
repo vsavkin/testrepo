@@ -25,5 +25,8 @@
     "@nrwl/js": {
       "analyzeSourceFiles": false
     }
+  },
+  "workspaceLayout": {
+    "libsDir": "packages"
   }
 }

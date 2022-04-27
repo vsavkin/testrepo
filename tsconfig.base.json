@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@remix-next-monorepo/shared": [
+        "packages/shared/src/index.ts"
+      ]
+    }
   }
 }
