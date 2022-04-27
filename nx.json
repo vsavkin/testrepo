@@ -1,0 +1,29 @@
+{
+  "extends": "nx/presets/npm.json",
+  "npmScope": "remix-next-monorepo",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "test"
+        ],
+        "accessToken": "Y2RhNTM0YmQtM2YwZi00NjU1LWEyZWEtOTliN2E4NjNiMjVmfHJlYWQtd3JpdGU="
+      }
+    }
+  },
+  "targetDependencies": {
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ]
+  },
+  "pluginsConfig": {
+    "@nrwl/js": {
+      "analyzeSourceFiles": false
+    }
+  }
+}

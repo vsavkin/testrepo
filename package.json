@@ -7,5 +7,9 @@
   ],
   "scripts": {
     "reset": "git clean -fdX && yarn install"
+  },
+  "devDependencies": {
+    "nx": "14.0.3",
+    "@nrwl/nx-cloud": "latest"
   }
 }

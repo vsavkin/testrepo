@@ -28,5 +28,12 @@
   },
   "engines": {
     "node": ">=14"
+  },
+  "nx": {
+    "targets": {
+      "build": {
+        "outputs": ["packages/remixapp/.cache", "packages/remixapp/build"]
+      }
+    }
   }
 }
