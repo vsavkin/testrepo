@@ -7,7 +7,8 @@
       "options": {
         "cacheableOperations": [
           "build",
-          "test"
+          "test",
+          "lint"
         ],
         "accessToken": "Y2RhNTM0YmQtM2YwZi00NjU1LWEyZWEtOTliN2E4NjNiMjVmfHJlYWQtd3JpdGU="
       }
