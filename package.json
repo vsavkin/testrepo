@@ -6,6 +6,9 @@
     "packages/*"
   ],
   "scripts": {
-    "reset": "git clean -fdX && yarn install"
+    "reset": "git clean -fdX && npm install"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
   }
 }
