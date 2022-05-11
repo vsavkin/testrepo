@@ -3,7 +3,7 @@
   "description": "",
   "license": "",
   "sideEffects": false,
-  "version": "0.1.3",
+  "version": "0.1.4",
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
