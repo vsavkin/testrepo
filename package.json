@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "reset": "git clean -fdX && npm install && npx lerna bootstrap --hoist"
+    "reset": "git clean -fdX && npm install && npx lerna bootstrap"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
