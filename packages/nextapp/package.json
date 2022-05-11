@@ -13,8 +13,8 @@
     "react-dom": "18.0.0"
   },
   "devDependencies": {
+    "components": "file:../components",
     "eslint": "8.13.0",
-    "eslint-config-next": "12.1.5",
-    "components": "file:../components"
+    "eslint-config-next": "12.1.5"
   }
 }

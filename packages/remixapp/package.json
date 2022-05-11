@@ -21,9 +21,9 @@
     "@remix-run/eslint-config": "^1.4.1",
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
+    "components": "file:../components",
     "eslint": "^8.11.0",
-    "typescript": "^4.5.5",
-    "components": "file:../components"
+    "typescript": "^4.5.5"
   },
   "engines": {
     "node": ">=14"
